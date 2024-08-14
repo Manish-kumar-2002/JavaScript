@@ -81,4 +81,11 @@ console.log(this);
 const arrowDemo2 = (num1,num2) =>  (num1 + num2)
 
     console.log(arrowDemo(2,4))
-    console.log(arrowDemo2(2,4))
+    console.log(arrowDemo2(2,4));
+
+
+
+ // IIFE Function ( Immediately Invoked Function Expression )
+    (function namedIIFE(num1, num2){
+        console.log(num1 + num2);
+    })(2,2);
